@@ -902,4 +902,6 @@ td {
     .sns_icon {
         margin-bottom: 10px;
     }
+    .top{right: 1rem;}
+    .top img{width: 60%;}
 }
