@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>빵·과자 페스티벌</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="head_inner">
+            <ul class="main left">
+                <li><a href="#intro"><img src="img/menu_icon01.png" alt="menu_icon01" class="ani">행사소개</a>
+                    <ul class="sub">
+                        <li><a href="#">행사소개</a></li>
+                        <li><a href="#">오시는길</a></li>
+                    </ul><!-- sub -->
+                </li>
+                <li><a href="#shop"><img src="img/menu_icon02.png" alt="menu_icon02" class="ani">참가업체</a>
+                    <ul class="sub">
+                        <li><a href="#">배치도</a></li>
+                        <li><a href="#">업체소개</a></li>
+                    </ul><!-- sub -->
+                </li>
+            </ul><!-- main_left" -->
+            <h1 class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></h1>
+            <ul class="main right">
+                <li><a href="#program"><img src="img/menu_icon03.png" alt="menu_icon03" class="ani">프로그램&굿즈</a>
+                    <ul class="sub">
+                        <li><a href="#">프로그램</a></li>
+                        <li><a href="#">굿즈</a></li>
+                    </ul><!-- sub -->
+                </li>
+                <li><a href="#notice"><img src="img/menu_icon04.png" alt="menu_icon04" class="ani">공지사항</a>
+                    <ul class="sub">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">문의사항</a></li>
+                    </ul><!-- sub -->
+                </li>
+            </ul><!-- main -->
+        </div><!-- head_inner -->
+
+        <div class="m_head_inner">
+            <button class="hamburger hamburger--spin" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <div class="m_logo"><a href="#"><img src="img/logo.png" alt="m_logo"></a></div>
+            <div class="m_menu">
+                <ul class="m_main">
+                    <li><a href="#"><img src="img/menu_icon01.png" alt="menu_icon01" class="ani">행사소개</a>
+                        <ul class="m_sub">
+                            <li><a href="#">행사소개</a></li>
+                            <li><a href="#">오시는길</a></li>
+                        </ul><!-- m_sub -->
+                    </li>
+                    <li><a href="#"><img src="img/menu_icon02.png" alt="menu_icon02" class="ani">참가업체</a>
+                        <ul class="m_sub">
+                            <li><a href="#">배치도</a></li>
+                            <li><a href="#">업체소개</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><img src="img/menu_icon03.png" alt="menu_icon03" class="ani">프로그램&굿즈</a>
+                        <ul class="m_sub">
+                            <li><a href="#">프로그램</a></li>
+                            <li><a href="#">굿즈</a></li>
+                        </ul><!-- sub -->
+                    </li>
+                    <li><a href="#"><img src="img/menu_icon04.png" alt="menu_icon04" class="ani">공지사항</a>
+                        <ul class="m_sub">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">문의사항</a></li>
+                        </ul><!-- sub -->
+                    </li>
+                </ul>
+            </div><!-- m_menu -->
+            <div class="ham_menu">
+                <ul class="ham_main">
+                    <li><a href="#">행사소개</a>
+                        <ul class="ham_sub">
+                            <li><a href="#">행사소개</a></li>
+                            <li><a href="#">오시는길</a></li>
+                        </ul><!-- ham_sub -->
+                    </li>
+                    <li><a href="#">참가업체</a>
+                        <ul class="ham_sub">
+                            <li><a href="#">배치도</a></li>
+                            <li><a href="#">업체소개</a></li>
+                        </ul><!-- ham_sub -->
+                    </li>
+                    <li><a href="#">프로그램&굿즈</a>
+                        <ul class="ham_sub">
+                            <li><a href="#">프로그램</a></li>
+                            <li><a href="#">굿즈</a></li>
+                        </ul><!-- ham_sub -->
+                    </li>
+                    <li><a href="#">공지사항</a>
+                        <ul class="ham_sub">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">문의사항</a></li>
+                        </ul><!-- ham_sub -->
+                    </li>
+                </ul><!-- ham_main -->
+            </div><!-- ham_menu -->
+            <div class="ham_menu_bg"></div>
+        </div><!-- m_head_inner -->        
+    </header><!-- header -->
+    <section id="video">
+        <video src="img/video.mp4" muted autoplay loop></video>
+    </section>
+    <section id="content">
+        <div id="intro">
+            <h2>🍞 행사 소개</h2>
+            <img src="img/poster.jpg" alt="poster">
+            <p>다양한 빵·과자를 한곳에서 만나요!<br>대한민국 제과제빵 문화를 이끄는 빵·과자 페스티벌</p>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum quae natus consequuntur. Excepturi quidem
+                natus, praesentium eos voluptates mollitia, aperiam, sunt eaque porro nam asperiores pariatur et dolorem
+                veritatis odio! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus
+                tenetur sunt unde delectus magni pariatur omnis dicta! Nisi atque soluta corrupti expedita doloribus ut
+                sed quam fugit possimus consequatur.</span><br><br><br>
+            
+            <ul>
+                <li><img src="img/ticket.jpg" alt="ticket"></li>
+                <li><img src="img/map.jpg" alt="map"></li>
+            </ul>
+            <p>티켓 구매 안내 & 오시는 길</p>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum quae natus consequuntur. Excepturi quidem
+                natus, praesentium eos voluptates mollitia, aperiam, sunt eaque porro nam asperiores pariatur et dolorem
+                veritatis odio! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus
+                tenetur sunt unde delectus magni pariatur omnis dicta! Nisi atque soluta corrupti expedita doloribus ut
+                sed quam fugit possimus consequatur.</span>
+            
+        </div><!-- intro -->
+        <div id="shop">
+            <h2>🥞 참가업체</h2>
+            <ul class="move">
+                <li class="slide slide01">
+                    <div class="info_box">
+                        <p>참가업체 1번</p>
+                        <p>참가업체 1번 설명입니다.</p>
+                    </div><!-- info_box -->
+                </li><!-- slide slide01 -->
+                <li class="slide slide02">
+                    <div class="info_box">
+                        <p>참가업체 2번</p>
+                        <p>참가업체 2번 설명입니다.</p>
+                    </div><!-- info_box -->
+                </li><!-- slide slide02 -->
+                <li class="slide slide03">
+                    <div class="info_box">
+                        <p>참가업체 3번</p>
+                        <p>참가업체 3번 설명입니다.</p>
+                    </div><!-- info_box -->
+                </li><!-- slide slide03 -->
+                <li class="slide slide04">
+                    <div class="info_box">
+                        <p>참가업체 4번</p>
+                        <p>참가업체 4번 설명입니다.</p>
+                    </div><!-- info_box -->
+                </li><!-- slide slide04 -->
+                <li class="slide slide05">
+                    <div class="info_box">
+                        <p>참가업체 5번</p>
+                        <p>참가업체 5번 설명입니다.</p>
+                    </div><!-- info_box -->
+                </li><!-- slide slide05 -->
+                <li class="slide slide06">
+                    <div class="info_box">
+                        <p>참가업체 6번</p>
+                        <p>참가업체 6번 설명입니다.</p>
+                    </div><!-- info_box -->
+                </li><!-- slide slide06 -->
+            </ul><!-- move -->
+        </div><!-- shop -->
+        <div id="program">
+            <h2>🥨 프로그램</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>토요일</th>
+                        <th>일요일</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>14:00</th>
+                        <td>다트 던지기</td>
+                        <td>쿠키 만들기</td>
+                    </tr>
+                    <tr>
+                        <th>15:00</th>
+                        <td>삼행시 짓기</td>
+                        <td>밴드 공연</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="p_card">
+                <div class="card c01">
+                    <h3>▶ 다트 던지기</h3>
+                    <span>높은 점수를 낸 5분께는 상품권을 드립니다!</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cum corrupti nobis in sed officia eaque.
+                        Laborum nisi aliquid obcaecati?</p>
+                </div>
+                <div class="card c02">
+                    <img src="img/card02.png" alt="card02">
+                </div>
+                <div class="card c03">
+                    <h3>▶ 쿠키 만들기</h3>
+                    <span>아이들이 좋아하는 쿠키 만들기 체험</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cum corrupti nobis in sed officia eaque.
+                        Laborum nisi aliquid obcaecati?</p>
+                </div>
+                <div class="card c04">
+                    <img src="img/card04.png" alt="card04">
+                </div>
+                <div class="card c05">
+                    <h3>▶ 삼행시 짓기</h3>
+                    <span>여러분의 센스를 보여주세요~</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cum corrupti nobis in sed officia eaque.
+                        Laborum nisi aliquid obcaecati?</p>
+                </div>
+                <div class="card c06">
+                    <img src="img/card06.jpg" alt="card06">
+                </div>
+                <div class="card c07">
+                    <h3>▶ 밴드 공연</h3>
+                    <span>페스티벌의 마무리를 장식하는 밴드 공연!</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cum corrupti nobis in sed officia eaque.
+                        Laborum nisi aliquid obcaecati?</p>
+                </div>
+                <div class="card c08">
+                    <img src="img/card08.png" alt="card08">
+                </div>
+            </div>
+
+        </div><!-- program -->
+        <div id="goods">
+            <h2>🥯 굿즈</h2>
+            <p>귀엽고 실용적인 굿즈로 페스티벌의 추억을 간직하세요!</p>
+            <div class="gridbox">
+                <div class="griditem"><img src="img/goods_plates.jpg" alt=""></div>
+                <div class="griditem"><img src="img/goods_glass.jpg" alt=""></div>
+                <div class="griditem"><img src="img/goods_mug.jpg" alt=""></div>
+                <div class="griditem"><img src="img/goods_pillow.jpg" alt=""></div>
+                <div class="griditem"><img src="img/goods_plates.jpg" alt=""></div>
+            </div>
+
+        </div>
+        <div id="notice">
+            <h2>🥐 공지사항</h2>
+            <ul class="ntc_list">
+                <li><a href="#">🍪 분실물 안내</a><span>0000-00-00</span></li>
+                <li><a href="#">🍪 빵·과자 페스티벌에 보내주신 성원에 감사드립니다.</a><span>0000-00-00</span></li>
+                <li><a href="#">🍪 행사 참여시 주의사항 안내</a><span>0000-00-00</span></li>
+                <li><a href="#">🍪 참가업체를 모집합니다.</a><span>0000-00-00</span></li>
+                <li><a href="#">🍪 홈페이지에 방문해주신 여러분을 환영합니다.</a><span>0000-00-00</span></li>
+            </ul><!-- ntc_list -->
+        </div><!-- notice -->
+    </section><!-- content -->
+    <footer id="footer">
+        <div class="foot_inner">
+            <ul class="sns_icon">
+                <li><a href="#"><img src="img/sns_naver.png" alt="sns_naver"></a></li>
+                <li><a href="#"><img src="img/sns_insta.png" alt="sns_insta"></a></li>
+                <li><a href="#"><img src="img/sns_face.png" alt="sns_face"></a></li>
+            </ul><!-- sns_icon -->
+            <p>상호명 : 빵과자세상</p>
+            <p>대표자명 : 안경선</p>
+            <p>주소 : ○○시 ○○구 ○○길 45, ○○빌딩 2층(○○동)
+                <p>Tel : 000-0000-0000</p>
+                <p>Copyright @ 빵·과자 페스티벌 개최위원회 All right reversed.</p>
+        </div><!-- foot_inner -->
+    </footer><!-- footer -->
+    <div class="top"><img src="img/top.png" alt="top"></div>
+</body>
+
+</html>
